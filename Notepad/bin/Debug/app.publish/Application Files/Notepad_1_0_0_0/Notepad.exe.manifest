@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Notepad.exe" version="1.0.0.0" publicKeyToken="e2580f35a2762ac1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Notepad" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Notepad.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Notepad.exe" size="377344">
+      <assemblyIdentity name="Notepad" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yr543Yz7otRYlUV1mUzTHW9VFWCdptF+mhkU38eP3QE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Notepad.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PIYUSH-SONI\DELL" issuerKeyHash="27b6376ce4a42779976fa607a40082faec75c107" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jivIFgm0R4KGH4jkhw4Ua8aLCPuJr4TqC8dayX06H4U=</DigestValue></Reference></SignedInfo><SignatureValue>pk5yC+ZbwFH6QdIzIpX+/gqr6sYNLp5XiPumV/nBfMt1kD67FqjUY/6tZn1zkgAQnRYh0oDUTspDQopc9JenaEUuWJVOCQ9pbtCb8bU2fI1U4+Lpw2UErq/MzsQg0hcsue8e4rJ5oH3X/Ow4sFDRsBVVsuVF9AceIeJfrpVQKBU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tmNsY0jg5sCV1Ja6HnDANvcL2BVK8vtYPwsIO6pS9MgB9C8lIOz96CQ+HN58XMtIx7g5gMOkBVCOvIgw06fv1SB5dwuw39eJSyxfRShjzVFvZrgOpTA3W+p1pzEj7s+jctseOL4C/QWcgzy5qnb6OItpvVUasOokBDV0+3WOMLU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="851f3a7dc95ac70bea84af89fb088bc66b140e87e4881f868247b40916c82b8e" Description="" Url=""><as:assemblyIdentity name="Notepad.exe" version="1.0.0.0" publicKeyToken="e2580f35a2762ac1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PIYUSH-SONI\DELL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HEKSjoraS+pz0DsfuCFgSMj1+ZGDQ9HzufO/sGlH+QU=</DigestValue></Reference></SignedInfo><SignatureValue>WV1bmjq2SEfNBsOUnBXdcowZJmAO7HZ6s3wh/bKaIgaC/QZVsf6HNDE14X16Vias58HRkiS0Gj7A3p+PLuSy4PBUPpZ9Jt2kXFdBO2fQsTlMeCwYXse5fg9wgjYyAFgfzSD9qZguc0hG7EBhBxvOTZQq4H9yI5f7cF0HpjHSbxs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tmNsY0jg5sCV1Ja6HnDANvcL2BVK8vtYPwsIO6pS9MgB9C8lIOz96CQ+HN58XMtIx7g5gMOkBVCOvIgw06fv1SB5dwuw39eJSyxfRShjzVFvZrgOpTA3W+p1pzEj7s+jctseOL4C/QWcgzy5qnb6OItpvVUasOokBDV0+3WOMLU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQGroc9ZxtZ4ZHjrXFzwbwmzANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAUABJAFkAVQBTAEgALQBTAE8ATgBJAFwARABFAEwATDAeFw0yMjEyMzAxMTI4NDFaFw0yMzEyMzAxNzI4NDFaMCsxKTAnBgNVBAMeIABQAEkAWQBVAFMASAAtAFMATwBOAEkAXABEAEUATABMMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2Y2xjSODmwJXUlroecMA29wvYFUry+1g/Cwg7qlL0yAH0LyUg7P3oJD4c3nxcy0jHuDmAw6QFUI68iDDTp+/VIHl3C7Df14lLLF9FKGPNUW9muA6lMDdb6nWnMSPuz6Ny2x44vgL9BZyDPLmqdvo4i2m9VRqw6iQENXT7dY4wtQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAB+2TiZQgRDFa+3eVWT4scfFA988VEvEbKGhD9JPsbr+xrJqgxHR0TvEhyLb6hV+btoFLlma+vyJ5EJA2gk5IivKVtl7SffQKDLUcwRJF5PVpUkWgcgSYw56pTy3e3risF5aluqQg5CEDZFq14MeIMzLlqbST7pu2d0amkBmJZ1C</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
